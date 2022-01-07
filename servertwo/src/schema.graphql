@@ -1,0 +1,17 @@
+type Query {
+  info: String!
+  feed: [Img!]!
+}
+
+type Mutation {
+  post(imgname: String!, location: String!, size: String!, format: String!, md5sum: String!): Img!
+}
+
+type Img {
+  id: ID!
+  imgname: String!
+  location: String!
+  size: String!
+  format: String!
+  md5sum: String!
+}
