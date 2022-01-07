@@ -1,0 +1,53 @@
+.around-box{
+  color: #515c5f;
+  
+  margin: 0rem 0.6rem 1rem 0.6rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background-color: rgb(225, 235, 236);
+  
+}
+
+.title-box{
+  color: rgb(225, 235, 236);
+  
+  margin: 0rem 0.6rem 0.7rem 0.6rem;
+  padding: 0.5rem 1rem 0.2rem 1rem;
+  border-radius: 0.4rem;
+  background-color: #515c5f;
+  
+}
+
+.all-box{
+  background-color: #76858b;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.ligth-title{
+  color: rgb(225, 235, 236);
+  text-align: center;
+  padding: 3rem;
+  font-size: 2rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.in-box{
+  color: #576266;
+
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: [first] 20% [line2] 8% [line3] 8% [col4-start] 40% [five] 20% [end];
+
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  /* This is better for small screens, once min() is better supported */
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+  gap: 1rem;
+}
+
+
+
+
